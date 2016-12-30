@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>button</title>
+     <script type="text/javascript" src="jquery-2.1.1.js"></script>
+	<style type="text/css">
+	/*	#fangfa{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}*/
+
+
+
+  #panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+#panel
+{
+padding:50px;
+display:none;
+}
+
+	</style>
+	<script type="text/javascript">
+		// function Fang(){
+		// 	fangfa.style.width='200px';
+		// 	fangfa.style.height='200px';
+		// 	alert(btn.type);
+		// }
+		// function Fang1(){
+		// 	Fang();
+		// 	fangfa.style.background='blue';
+		// }
+
+
+ $(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown(5000);
+  });
+  $("#stop").click(function(){
+    $("#panel").stop();
+  });
+});
+	</script>
+</head>
+<body>
+	<!-- <input type="button" id="btn" value="点击" onclick="Fang()">
+	<input type="button" id="btn2" value="点击" onclick="Fang1()">
+	<div id="fangfa"> -->
+
+
+
+
+    <button id="stop">停止滑动</button>
+<div id="flip">点击这里，向下滑动面板</div>
+<div id="panel">Hello world!</div>
+
+		
+	</div>
+</body>
+</html>

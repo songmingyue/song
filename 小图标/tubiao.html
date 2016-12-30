@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <style type="text/css">
+        .yuan{
+            position: relative;
+            width: 50px;
+            height: 20px;
+            border-radius: 10px;
+            background-color:gray;
+        }
+        .ball{
+            position: absolute;
+            width:20px;
+        height: 20px;
+        border-radius: 100%;
+        -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            background-color:red ;
+            left: 5px;
+            top: 50%;
+            animation: myfirst 5s;
+            margin-top:-10px;
+         -webkit-animation: myfirst 5s;
+        }
+
+    </style>
+</head>
+<body>
+<div class="yuan" id="yuan" name="ball" >
+    <div class="ball" id="ball"></div>
+</div>
+
+<script>
+//    function getClassObj(parent,className) {
+//        var obj = parent.getElementsByTagName("*");
+//        var pinS = [];
+//        for (var i = 0; i < obj.length; i++) {
+//            if (obj[i].className == className) {
+//                pinS.push(obj[i]);
+//            }
+//        }
+//        ;
+//        return pinS
+//    }
+
+
+    window.onload=function() {
+        var obtn = document.getElementById('yuan');
+        var obt =document.getElementById('ball');
+
+
+
+        obtn.onclick = function () {
+          if(obtn.style.backgroundColor==""||obtn.style.backgroundColor=="gray") {
+               obt.style.left = '25px';
+              obtn.style.backgroundColor="green"
+
+          }
+     else if(obtn.style.backgroundColor==="green"){
+               obt.style.left = '5px';
+               obtn.style.backgroundColor = "gray";
+          }
+        }
+    }
+
+
+
+</script>
+</body>
+</html>

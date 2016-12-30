@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	width: 100%-10px;
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+	border-bottom:1px solid rgb(217,217,217);
+	list-style: none;
+}
+li span{
+	float: right;
+	margin-right: 20px;
+}
+.line{
+	background-color: rgb(241,239,245);
+	color:rgb(138,140,141); 
+}

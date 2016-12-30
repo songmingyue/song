@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(241,241,241);
+    position: relative;
+}
+.headCenter{
+    width:1210px;
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -605px;
+}
+.beijing{
+    position: relative;
+    width: 95px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+}
+.beijing i{
+    width: 15px;
+    height: 7px;
+    /*top: 3px;*/
+    position: absolute;
+    left: 75px;
+    overflow: hidden;
+    top: 13px;
+}
+.beijing  s{
+    position: absolute;
+    top: -15px;
+}
+.qita{
+    width: 769px;
+    margin-top: -31px;
+    height: 31px;
+    float: right;
+}
+.signin{
+    width: 84px;
+    height: 31px;
+    margin-top: 6px;
+    float: left;
+}
+/*.signin a{*/
+    /*width: 70px;*/
+    /*display: block;*/
+    /*/!*margin-top: 10px;*!/*/
+/*}*/
+.others{
+    width: 760px;
+    height: 31px;
+}
+
+
+.others a{
+    display: block;
+    width: 68px;
+    height: 14px;
+    /*border-right: 1px solid rgb(222,222,222);*/
+}
+.others ul li{
+    float: left;
+    height: 14px;
+    width: 68px;
+    line-height: 31px;
+    position: relative;
+}
+.others i{
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    top: 15px;
+    overflow: hidden;
+}
+.others s{
+    position: absolute;
+    top: -15px;
+}
+.topBanner{
+   background-color: rgb(138,38,198);
+    width: 100%;
+    height: 80px;
+
+}
+/*.topBanner img{*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -605px;;*/
+/*}*/
+.return{
+    width: 1210px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 3px;
+    left: 1180px;;
+    width: 19px;
+    height: 19px;
+    background: url("images/close.png")0px 0px;
+}
+.return a{
+    width: 19px;
+    height: 19px;
+    display: block;
+}
+.logo{
+    padding-top: 20px;
+    float: left;
+}
+.search{
+    margin-top: 30px;;
+    width: 538px;
+    height: 100px;
+    float: left;
+}
+.search .in{
+    /*margin-left: 20px;*/
+    width: 458px;
+    height: 32px;
+    border: 2px solid rgb(186,27,31);
+}
+.search .in button {
+    width: 80px;
+    height: 32px;
+    background-color: rgb(186,27,31);
+    float: right;
+}
+.buying ul li{
+    float: left;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+.shoppingCar{
+    width: 141px;
+    height: 36px;
+    border: 1px solid  rgb(241,241,241);
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.primse{
+    display: inline-block;
+    width:19px;
+    height: 20px;
+    background: url("images/sprite.png")1px -57px no-repeat;
+    background-size: 28px 160px;
+    margin-top: 7px;
+    margin-left: 10px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.us{
+    display: block;
+    width: 100px;
+    height: 15px;
+    margin-left: 33px;
+    margin-top: -26px;
+}
+.class{
+    width: 1210px;
+    height: 46px;
+    margin: 0 auto;
+}
+.class1{
+    width: 210px;
+    height: 44px;
+    background-color: rgb(179,25,27);
+    color: white;
+    font-size: 16px;
+    margin-top: -20px;
+}
+.class .new{
+    float: left;
+    height: 44px;
+    width: 675px;
+    margin-left: 225px;
+    margin-top: -40px;
+}
+.new li{
+    float: left;
+    padding-right: 40px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+}
+.new a{
+    font:400 15px/44px "微软雅黑";
+}
+.back{
+    margin-left: 1100px;
+    margin-top: -46px;
+}
+.all{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid  rgb(179,25,27);
+}
+.body {
+    position: relative;
+}
+.body>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 465px;
+    background: url(images/banner.jpg) no-repeat top center;
+}
+.body1{
+    width: 1210px;
+    height: 465px;
+    margin: 0 auto;
+    position: relative;
+}
+.left{
+    background-color: rgb(220,22,34);
+    width: 210px;
+    height: 465px;
+    position: relative;
+    z-index: 10;
+}
+.left span{
+
+}
+.left ul{
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+.left li{
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.left .first{
+    margin-top: 0px;
+}
+.center{
+    width: 730px;
+    height: 453px;
+    background: url("images/slider1.jpg");
+    position: absolute;
+    left: 221px;
+    top: 10px;
+}
+.center ul{
+    margin-left: 298px;
+
+
+}
+.center li{
+
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: rgb(65,66,68);
+   float: left;
+    margin-right: 10px;
+    margin-top: 430px;
+    color: white;
+  }
+.right{
+    width: 250px;
+    height: 453px;
+    border: 1px solid  rgb(241,241,241);
+    position:absolute;
+    left: 957px;
+    top: 10px; ;
+}
+.more{
+    width: 248px;
+    height: 44px;
+    border-bottom: 1px solid rgb(241,241,241);
+
+}
+.more a{
+line-height: 44px;
+
+}
+.gonggao{
+    width: 218px;
+    height: 148px;
+    border-bottom: 1px dotted rgb(241,241,241);
+}
+.gonggao li{
+    margin-bottom: 10px;
+}
+.live{
+    width: 248px;
+    height: 44px;
+    border-bottom: 1px dotted rgb(241,241,241);
+}
+tr td{
+    width: 64px;
+    height: 70px;
+
+
+}
+.phoneMonery{
+    width:25px;
+    height: 25px;
+    background: url(images/icon_lifeserv.png)-26px 1px no-repeat;
+    overflow: hidden;
+   margin: 0 auto;
+}
+tr td span{
+   margin-left: 17px;
+}
+.under{
+width:1210px ;
+    height: 170px;
+    margin:0 auto;
+    margin-top: 15px;
+}
+.under .firstchildren{
+    margin-top: -10px;
+}
+button{
+    color: white;
+    font-size: 16px;
+}
+
+.jdlogo{
+    display: block;
+    width: 180px;
+    height: 60px;
+    background: url("images/logo.png")180px 1px no-repeat;
+}
+.under a{
+display: block;
+    width: 247px;
+    height: 147px;
+    float: left;
+    margin-left: 2px;
+}
+.under .first{
+    width: 210px;!important;
+    height: 150px;!important;
+    margin-top: 10px;
+}
+.close:hover {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 3px;
+    left: 1180px;
+   background: url("images/close.png")0px 19px;
+}
+.arrow-l, .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover {
+    background: rgba(0,0,0,.4);
+    color: #fff;
+}
+.lala{
+    font: 400 13px/17px "宋体";
+    font-weight: bold;
+}
+.jianjiao{
+    margin-left: 117px;
+}
+.jianjiao1{
+    margin-left: 33px;
+}

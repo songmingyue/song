@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            font-family: "Arial","Microsoft Yahei","SimSun";
+        }
+        body{
+            height: 4000px;
+        }
+
+       .header{
+           background-color: rgb(25,29,58);
+           width:100% ;
+           height: 58px ;
+       }
+        .center{
+            width: 1000px;
+            height: 58px;
+            display: -webkit-flex;
+            display: flex;
+            margin: 0 auto;
+        }
+        .logo{
+            width:178px;
+            height: 58px;;
+        }
+        .logo img{
+            padding: 10px 0px 15px 0px;
+        }
+        .list{
+            width:640px ;
+            height: 58px;
+
+        }
+        .list li{
+
+            float: left;
+            list-style: none;
+            border-right: 1px solid#252947;;
+
+
+        }
+        .list li a{
+            text-decoration: none;
+            display: block;
+            width: 86px;
+            height:38px;
+            padding-top: 18px;
+            color:#818496;
+            text-align: center;
+
+
+        }
+        .button{
+            width: 100px;
+            height: 34px;
+            margin-top: 12px;
+            border-radius: 3px;
+            background-color:rgb(56,183,116) ;
+        }
+        .button :hover{
+          background-color:rgb(255,165,0);
+            border: 1px solid rgb(249,231,6);
+        }
+        .button a{
+            padding-left: 20px; ;
+            text-decoration: none;
+            color:white;
+            line-height: 34px;
+            width: 80px;
+            height: 34px;
+            display: block;
+        }
+        .picture{
+
+            /*background-size:100% auto;*/
+            /*background: url(images/banner1.jpg) no-repeat;*/
+            /*height: 567px;*/
+            position: relative;
+           height: 567px;
+            width: 100%;
+        }
+        .round{
+
+            width: 76px;
+            height: 10px;
+            position: absolute;
+            top: 550px;
+            left: 50%;
+          margin-left: -5px;
+          margin-left: -8px;
+
+        }
+        .picture li{
+            width: 10px;
+            height: 10px;
+            border-radius: 6px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+            background-color: white;
+            list-style: none;
+            float: left;
+            margin-right: 5px;
+
+
+        }
+        .all{
+            width:1000px;
+            display: -webkit-flex;
+            height: 260px;
+            display: flex;
+            margin: 0 auto;
+            border-bottom: 1px solid#000000;
+
+
+        }
+        .picture1{
+            width: 218px;
+            height: 194px;
+            padding-top: 20px;
+            margin: 20px;
+        }
+        .picture2{
+            margin-top: -3px;
+            width: 218px;
+            height: 64px;
+            /*background-color: green;*/
+
+        }
+        .picture2:hover{
+            background-color: green;
+        }
+        .picture1:hover .picture2{
+            background-color: green;
+        }
+        .picture2 p{
+             text-align: center;
+
+        }
+        .line{
+            position: relative;
+        }
+        .line1{
+            position: absolute;
+            left:50%;
+            margin-left: -15px;
+            background-color: white;
+            width: 68px;
+            height: 10px;
+            padding-left: 5px;
+            margin-top: -5px;
+
+        }
+
+        .line1 li{
+
+            background-color: transparent;;
+            width: 10px;
+            height: 10px;
+            float: left;
+            border-radius: 5px;
+           border: 1px solid aqua;
+            list-style: none;
+            margin-right: 5px;
+        }
+        .round .one{
+            background-color: red;
+        }
+        .line1 .two{
+            background-color: aqua;
+        }
+        .list a:hover{
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="center">
+        <div class="logo">
+            <a href=""><img class="img" src="images/logo.png"></a>
+        </div>
+        <div class="list">
+        <ul>
+            <li><a href="#">首页</a> </li>
+            <li><a href="#">博雅游戏</a></li>
+            <li><a href="#">博雅新闻</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">客服中心</a></li>
+            <li><a href="#">投资者关系</a></li>
+            <li><a href="#">校园大使</a></li>
+        </ul>
+        </div>
+        <div class="button"><a href="#">加入我们</a> </div>
+    </div>
+    <div class="picture">
+        <img src="images/banner1.jpg">
+       <div class="round">
+           <ul>
+               <li class="one"></li>
+               <li></li>
+               <li></li>
+               <li></li>
+           </ul>
+       </div>
+    </div>
+    <div class="last">
+        <div class="all">
+            <div class="picture1"><img src="images/pro1.png"> <div class="picture2"><p>&nbsp</p><p>四川麻将</p><p style="color:lawngreen">SICHUAN MAHJONG&nbsp<img src="images/arrow.png"> </p></div> </div>
+            <div class="picture1"><img src="images/pro2.png"> <div class="picture2"><p>&nbsp</p><p>四川麻将</p><p style="color:lawngreen">SICHUAN MAHJONG&nbsp<img src="images/arrow.png"> </p></div> </div>
+            <div class="picture1"><img src="images/pro3.png"> <div class="picture2"><p>&nbsp</p><p>四川麻将</p><p style="color:lawngreen">SICHUAN MAHJONG&nbsp<img src="images/arrow.png"> </p></div> </div>
+            <div class="picture1"><img src="images/pro4.png"> <div class="picture2"><p>&nbsp</p><p>四川麻将</p><p style="color:lawngreen">SICHUAN MAHJONG&nbsp<img src="images/arrow.png"> </p></div> </div>
+        </div>
+    </div>
+<div class="line">
+    <div class="line1">
+        <ul>
+            <li class="two"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</div>
+</div>
+</body>
+</html>

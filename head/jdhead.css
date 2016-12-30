@@ -1,0 +1,244 @@
+.head{
+    width: 1190px;
+    height: 32px;
+    margin: 0 auto;
+    background-color:rgb(239,239,239) ;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    float: left;
+}
+.last {
+    float: right;
+    width: 655px;
+}
+.last li{
+    margin: 0px 3px 0px 3px;
+    color:rgb(99,99,99);
+    line-height: 32px;
+    position: relative;
+}
+.last a{
+    color:rgb(99,99,99);
+    text-decoration: none;
+}
+.list li span{
+    color: rgb(227,227,227);
+}
+.head-first{
+    width: 163px;
+    margin-left: 10px;
+    line-height: 32px;
+    height: 32px;
+    float: left;
+}
+
+.head-first span{
+    font-weight:bold;
+}
+.head-first a{
+    color:rgb(99,99,99);
+}
+.head-first li{
+    margin-right: 10px;
+    font-size: 12px;
+    color:rgb(99,99,99);
+}
+.picture{
+    width:1190px;
+    height: 91px;
+    background-color: aqua;
+    position: relative;
+    margin: 0 auto;
+
+}
+.hd-line{
+    position: relative;
+}
+.hd-line img{
+    margin-right: 5px;
+}
+.body{
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+#hide{
+    top: 10px;
+    right: 10px;
+    position:absolute;
+    right: 10px;
+    top: 10px;
+    width: 19px;
+    height: 19px;
+    background: url("images/close.png")0px 0px;
+}
+
+#hide:hover {
+    top: 10px;
+    right: 10px;
+    position:absolute;
+    right: 10px;
+    top: 10px;
+    width: 19px;
+    height: 19px;
+    background: url("images/close.png")0px 19px;
+
+}
+.bdfirst{
+    width: 348px;
+    height: 100px;
+    padding-top: 20px;
+}
+.logo{
+    width: 165px;
+    height: 69px;
+    background:url("images/logo.png")-3px 1px;
+    float: left;
+}
+.gifpic{
+    float: left;
+}
+.bd-ip{
+    width: 458px;
+    height: 32px;
+    border: 2px solid rgb(186,27,31);
+    float: left;
+}
+.bd-ip input{
+    width: 147px;
+    height: 28px;
+    margin-left: 5px;
+    border: 0px;
+    padding-right: 200px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.bd-ip button{
+   float: right;
+    width: 80px;height: 32px;
+    color: white;
+    font-size: 16px;
+    background-color:rgb(186,27,31);
+    border: 0px;
+}
+.bd-all{
+    width: 458px;
+    height: 58px;
+}
+.hot{
+    width: 458px;
+    height: 13px;
+    margin-top: 10px;
+    float: left;
+    font-size: 12px;
+}
+.hot li{
+    float: left;
+    color:rgb(156,148,156) ;
+    margin-right: 5px;
+}
+.jd-my{
+    float: left;
+    margin-left: 135px;
+    margin-top: -32px;
+    width: 108px;
+    height: 31px;
+    font-size: 12px;
+    background-color: rgb(239,239,239);
+    color: rgb(98,98,98);
+    line-height: 31px;
+
+}
+.bd-car{
+    float: right;
+    width: 126px;
+    height: 31px;
+    margin-top: -32px;
+    background-color: rgb(239,239,239);
+    font-size: 12px;
+    color: rgb(98,98,98);
+    line-height: 31px;
+
+}
+.hot li a{
+    color: rgb(255,0,0);
+}
+@font-face {font-family: "iconfont";
+    src: url('download (9)/font_463lo6t2omrnewmi/iconfont.eot?t=1481866305966'); /* IE9*/
+    src: url('download (9)/font_463lo6t2omrnewmi/iconfont.eot?t=1481866305966#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('download (9)/font_463lo6t2omrnewmi/iconfont.woff?t=1481866305966') format('woff'), /* chrome, firefox */
+    url('download (9)/font_463lo6t2omrnewmi/iconfont.ttf?t=1481866305966') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('download (9)/font_463lo6t2omrnewmi/iconfont.svg?t=1481866305966#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon-wujiaoxing-shi{
+    color: rgb(239,173,24);
+}
+.icon-shouye02{
+    color: rgb(239,173,24);
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-shouji-copy{
+   display: block;
+    float: left;
+    margin-top: 2px;
+    margin-right: 3px;
+
+}
+.icon-moreunfold{
+    display: block;
+    float: right
+;font-size:12px;
+    margin-top: 3px;
+
+}
+.icon-iconfont08{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-left: 15px;
+    /*margin-right: 3px;*/
+}
+.icon-ren{
+    display: block;
+    float: left;
+    margin-top: 2px;
+    margin-left: 20px;
+    margin-right: 3px;
+}
+.icon-xiaoxi{
+    display: block;
+    float: left;
+    margin-top: -21px;
+    margin-left: -6px;
+    margin-right: 0px;
+}
+
+.icon-moreunfold:before { content: "\e6a6"; }
+
+.icon-gouwuche:before { content: "\e609"; }
+
+.icon-xiaoxi:before { content: "\e65b"; }
+
+.icon-shouye02:before { content: "\e684"; }
+
+.icon-iconfont08:before { content: "\e60c"; }
+
+.icon-shouji-copy:before { content: "\e60e"; }
+
+.icon-ren:before { content: "\e66b"; }
+
+.icon-wujiaoxing-shi:before { content: "\e625"; }

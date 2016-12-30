@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+             margin: 0px;
+            padding: 0px;
+        }
+        li{
+            list-style: none;
+            float: left;
+        }
+        .head{
+            width: 1200px;
+            height: 36px;
+            margin: 0 auto;
+            line-height: 36px;
+        }
+        .headlf  .listyle {
+            padding: 0px 10.5px;
+        }
+        a{
+            text-decoration: none;
+            color: #666666;
+        }
+        .headlf li span{
+            color: #414141;
+            font-size: 12px;
+        }
+        .headrg li p{
+            color: #414141;
+            font-size: 12px;
+            font-family: "微软雅黑";
+        }
+        .picture{
+            display: block;
+            width: 13px;
+            height: 13px;
+        }
+        .head li{
+            position: relative;
+        }
+        .headrg{
+            float: right;
+        }
+        .headrg li{
+            padding: 0px 5.328px;
+        }
+        .line{
+            width: 100%;
+            height: 1px;
+            background-color:rgb(159,160,161);
+        }
+        .nav{
+            width: 100%;
+            height: 50px;
+            padding: 18px 0px;
+        }
+        .other{
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+            line-height: 50px;
+            border: 1px solid red;
+        }
+        .next img{
+            margin-right: 5px;
+            vertical-align:middle ;
+        }
+        .investment{
+            width: 96px;
+            height: 24px;
+            border-radius: 6px;
+            background-color:#ff545c ;
+            line-height: 24px;
+            margin-top: 2px;
+
+        }
+        .investment span{
+            font-family: "Microsoft Yahei";
+            font-size: 13px;
+            color: #ffffff;
+            margin-left: 9px;
+        }
+        .finance{
+           height: 24px;
+            line-height: 28px;
+            font-family: "Microsoft Yahei";
+            font-size: 16px;
+        }
+        .homepage{
+            float: right;
+            font-size: 18px;
+            line-height: 50px;
+
+        }.homepage i img{
+            width:35px;
+            height: 35px;
+          }
+        .homepage img{
+            float: left;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        .homepage li{
+            padding-left: 20px;
+        }
+        .homepage a{
+            font-size: 18px;
+            color: #333333;
+            font-family: "Microsoft Yahei";
+        }
+        .logoline{
+            border-right: 1px solid #cccccc;
+            padding-right: 15px;
+            margin-right: 15px;
+        }
+        .weijinsuo{
+            font-size: 24px;
+            font-family: MiFie-Website-Font;
+            vertical-align:middle ;
+        }
+
+        *{margin: 0;padding: 0;list-style: none;}
+        /*
+        KISSY CSS Reset
+        理念：1. reset 的目的不是清除浏览器的默认样式，这仅是部分工作。清除和重置是紧密不可分的。
+        2. reset 的目的不是让默认样式在所有浏览器下一致，而是减少默认样式有可能带来的问题。
+        3. reset 期望提供一套普适通用的基础样式。但没有银弹，推荐根据具体需求，裁剪和修改后再使用。
+        特色：1. 适应中文；2. 基于最新主流浏览器。
+        维护：玉伯<lifesinger@gmail.com>, 正淳<ragecarrier@gmail.com>
+         */
+
+        /** 清除内外边距 **/
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+        dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+        pre, /* text formatting elements 文本格式元素 */
+        form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+        th, td /* table elements 表格元素 */ {
+            margin: 0;
+            padding: 0;
+        }
+
+        /** 设置默认字体 **/
+        body,
+        button, input, select, textarea /* for ie */ {
+            font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+        address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+        code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+        small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+        /** 重置列表元素 **/
+        ul, ol { list-style: none; }
+
+        /** 重置文本格式元素 **/
+        a { text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+
+        /** 重置表单元素 **/
+        legend { color: #000; } /* for ie6 */
+        fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+        button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+        /* 注：optgroup 无法扶正 */
+
+        /** 重置表格元素 **/
+        table { border-collapse: collapse; border-spacing: 0; }
+
+
+
+
+        @font-face {font-family: "iconfont";
+            src: url('iconfont.eot?t=1481526553168'); /* IE9*/
+            src: url('iconfont.eot?t=1481526553168#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('iconfont.woff?t=1481526553168') format('woff'), /* chrome, firefox */
+            url('iconfont.ttf?t=1481526553168') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+            url('iconfont.svg?t=1481526553168#iconfont') format('svg'); /* iOS 4.1- */
+            url('iconfont.svg?t=1481526553168#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+            font-family:"iconfont" !important;
+            font-size:14px;
+            font-style:normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+            width: 14px;
+            height: 14px;
+            float: left;
+            color: #666666;
+            margin-right: 3px;
+            margin-top: 2px;
+        }
+        .icon-dianhua:before { content: "\e619"; }
+
+        .icon-jianyingmobile:before { content: "\e631"; }
+
+
+        .icon-qiandai:before { content: "\e609"; }
+
+        .icon-weixintubiao:before { content: "\e67b"; }
+
+        .icon-kefu-copy:before { content: "\e600"; }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="headlf">
+    <ul>
+        <li><a href="#"><div class="icon iconfont icon-dianhua">
+           </div><span>客服电话：4006-89-4006/010-53563799/
+            (9:00~21:00)</span></a></li>
+        <li class="listyle" style="color: #cccccc">|</li>
+        <li><a href="#"><div class="icon iconfont icon-kefu-copy"></div><span>在线客服</span></a></li>
+        <li class="listyle"  style="color: #cccccc">|</li>
+        <li><a href="#"><div  class="icon iconfont icon-jianyingmobile"></div><span>移动客户端</span></a></li>
+
+        <li class="listyle"  style="color: #cccccc">|</li>
+        <li><a href="#"> <div class="icon iconfont icon-weixintubiao"></div><span>微信公众号二维码</span></a></li>
+        <li class="listyle"  style="color: #cccccc">|</li>
+        <li><a href="#"> <div class="icon iconfont icon-qiandai"></div><span>财富登录</span></a></li>
+    </ul>
+</div>
+    <div class="headrg">
+        <ul>
+            <li><p>帮助中心</p></li>
+            <li><p style="color: #cccccc">|</p></li>
+            <li><p>注册</p></li>
+            <li><p>登录</p></li>
+        </ul>
+    </div>
+</div>
+<div class="line"></div>
+<div class="nav">
+    <div class="other">
+        <div class="next">
+<ul>
+    <li class="logoline">
+        <img src="imagesweijinsuo/lofo.png">
+        <span class="weijinsuo">微金所</span>
+    </li>
+    <!--领航投资标题-->
+    <li><div class="investment"><span>海航资本领投</span></div>
+        <div class=" finance"><span>A轮<strong>3.2</strong>亿融资</span></div>
+    </li>
+    <!--a轮3.2亿融资-->
+</ul>
+    </div>
+    <!--导航栏右边的首页-->
+    <div class="homepage">
+        <ul>
+            <li><p><a href="#">首页</a> </p></li>
+            <li><p><a href="#">我要投资</a></p></li>
+            <li><p><a href="#">安全保障</a></p></li>
+            <li><p><a href="#">新手专区</a></p></li>
+            <li><p><a href="#">新闻公告</a></p></li>
+            <li><p><a href="#">关于我们</a></p></li>
+            <li class="last"><i><img src="imagesweijinsuo/anonymous.jpg"  style=""></i><span><a href="#"> 我的账户
+            </a></span></li>
+        </ul>
+    </div>
+</div>
+</div>
+</body>
+</html>

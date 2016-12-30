@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+<body onload="startTime()">
+<div id="txt"></div>
+<!-- <button onclick="replace()">替换内同</button>
+<p id="demo">4545</p> -->
+<script>
+    //求字符串的长度
+// var p="helloworld";
+// document.write(p.length)
+
+
+//变换字符串的大小样式
+// var p="helloworld";
+// document.write("<p>"+p.big()+"</p>")
+// document.write("<p>"+p.small()+"</p>")
+
+
+
+
+//replace替换
+// function replace(){
+//   document.getElementById('demo').innerHTML= 'guant';
+    
+// }
+
+
+
+//get()方法
+
+
+function startTime()
+{
+var today=new Date()
+var h=today.getHours()
+var m=today.getMinutes()
+var s=today.getSeconds()
+// add a zero in front of numbers<10
+m=checkTime(m)
+s=checkTime(s)
+document.getElementById('txt').innerHTML=h+":"+m+":"+s
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>
+
+</body>
+</html>

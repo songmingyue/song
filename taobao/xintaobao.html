@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="font_ugw0ji3phf47vi/demo.css">
+    <link rel="stylesheet" href="font_ugw0ji3phf47vi/iconfont.css">
+    <link rel="shortcut icon" href="taobaoimage/favicon.ico">
+    <title></title>
+    <style>
+
+        @font-face {font-family: "iconfont";
+            src: url('font_ugw0ji3phf47vi/iconfont.eot?t=1481700092524'); /* IE9*/
+            src: url('font_ugw0ji3phf47vi/iconfont.eot?t=1481700092524#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('font_ugw0ji3phf47vi/iconfont.woff?t=1481700092524') format('woff'), /* chrome, firefox */
+            url('font_ugw0ji3phf47vi/iconfont.ttf?t=1481700092524') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+            url('font_ugw0ji3phf47vi/iconfont.svg?t=1481700092524#iconfont') format('svg'); /* iOS 4.1- */
+        }
+
+        .iconfont {
+            font-family:"iconfont" !important;
+            font-size:16px;
+            font-style:normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-2:before { content: "\e601"; }
+
+        .icon-z-code:before { content: "\e69c"; }
+
+        .icon-ren-copy:before { content: "\e602"; }
+
+        .icon-weibo:before { content: "\e8fd"; }
+
+        .icon-zhifubao:before { content: "\e644"; }
+.icon-zhifubao{
+    color:#1ba9ee;
+    margin-top: 2px;
+}
+.icon-weibo{
+color: #e52425;
+}
+        .other-login a{
+            color:#6c6c6c ;
+        }
+        .icon-z-code{
+            font-size: 34px;
+            color: #f40;
+            float: left;
+            line-height: 36px;
+            margin-right: 10px;
+        }
+        .head-taobao{
+            width: 100%;
+            height: 45px;
+            padding: 22px 0px;
+
+        }
+        .header{
+            width: 1200px;
+            height: 45px;
+            line-height: 45px;
+            margin: 0 auto;
+        }
+        .taobao{
+            float: left;
+        }
+        .taobao img{
+            width: 110px;
+            height: 54px;
+        }
+        .suggest{
+            float: right;
+        }
+        .suggest img{
+           margin-right: 3px;
+            width: 16px;
+            height: 16px;
+        }
+        .suggest span{
+            font-size: 12px;
+            font-family: "Microsoft YaHei";
+            color: rgb(102,102,102);
+        }
+        .body{
+            width: 100%;
+            height: 600px;
+
+            background:url("taobaoimage/bk2.jpg");
+        }
+        .bodybk{
+            width: 1200px;
+            height: 600px;
+            background: url("taobaoimage/bk2.jpg")-641px -662px;
+            margin:0 auto;
+            position: relative;
+        }
+        .right{
+            width: 350px;
+        height: 351px;
+            position: absolute;
+            top: 120px;
+            right: 60px;
+            width: 350px;
+        }
+        .right1{
+            width: 300px;
+            height: 303px;
+          padding: 25px 25px 23px;
+            background-color: rgb(254,242,242);
+        }
+        .login-switch{
+            width: 52px;
+            height: 52px;
+            position: absolute;
+            right: 5px;
+            top: 8px;
+        }
+        .login-switch img{
+            width: 52px;
+            height: 52px;
+        }
+        .login-tip{
+            position: absolute;
+            top: 5px;
+            right: 58px;
+
+        }
+        .poptip{
+            width: 106px;
+            height: 16px;
+            padding: 5px 20px 5px 15px;
+            background-color: #fefcee;
+            border: 1px solid#f3d995;
+        }
+        .poptip-arrow{
+            position: absolute;
+            top: 3px;
+            right: 0px;
+            z-index: 10;
+            border-style: solid
+        }
+        .poptip-arrow em{
+
+            top: 0px;
+            left: 3px;
+            border-width: 6px 0px 6px 6px;
+            border-left-color: #f3d995;
+        }
+        .poptip-arrow em{
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-color: rgba(255,255,255,0);
+            /*z-index: 10;*/
+        }
+        .poptip-arrow span{
+            border-left-color: #fefcee;
+            border-width: 6px 0px 6px 6px;
+            position: absolute;
+            border-style: solid;
+            width: 0px;
+            height: 0px;
+            top: 0px;
+            left: 0px;
+            overflow: hidden;
+            border-color: rgba(255,255,255,0);
+        }
+        .login-title{
+            width: 300px;
+            height: 18px;
+            margin-top: 9px;
+            padding-bottom: 8px;
+            font-size: 16px;
+            color: #3c3c3c;
+            font-weight: 700;
+            line-height: 18px;
+        }
+        .username-field{
+            width: 300px;
+            height: 42px;
+            margin-top: 20px;
+        }
+        .username-field label{
+            width: 40px;
+            height: 40px;
+        }
+        .username-field label i{
+            width: 22px;
+            height: 22px;
+        }
+        .textlogin{
+            width: 240px;
+            height: 18px;
+            line-height: 18px;
+            padding:11px 8px 11px 50px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        .pow-field{
+            margin-top: 20px;
+            position: relative;
+            width: 300px;
+            height: 42px;
+        }
+        label{
+            background-position: 50% -30px;
+
+        }
+        label{
+          display: block;
+            width: 40px;
+            height: 40px;
+            background-color: yellow;
+            line-height: 40px;
+            color: #fff;
+            background: #ddd;
+            text-align: center;
+            position: absolute;
+            left: 1px;
+            top:1px;
+
+
+        }
+        .login-text{
+            width: 240px;
+            height: 18px;
+            line-height: 18px;
+            padding: 11px 8px 11px 50px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+        }
+        .bd{
+            display: none;
+        }
+        .submit{
+           ;
+            margin-top: 20px; ;
+        }
+        .submit button{
+            width: 300px;
+            height: 42px;
+            border: 0;
+            background-color: #f40;
+            border-radius: 3px;
+            line-height: 42px;
+            vertical-align: middle;
+            color: #fff;
+            overflow: hidden;
+            zoom: 1;
+            cursor:pointer;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: "Micorosoft YaHei";
+
+        }
+        .other-login a{
+            margin-right: 20px;
+        }
+        .other-login{
+            margin-top: 24px;
+        }
+        .login-links{
+            width: 300px;
+            height: 18px;
+            margin-top: 25px;
+
+            text-align: right;
+        }
+
+
+        .login-title{
+            margin-top: 9px;
+            padding-bottom: 8px;
+        }
+        .qrcode-img{
+            margin-top: 24px;
+            height: 140px;
+            text-align: center;
+        }
+        .qrcode-desc{
+            margin: 24px auto 0;
+            font-size: 12px;
+
+            width: 188px;
+
+        }
+        .qrcode-desc a{
+            color: #f40;
+        }
+        .login-links{
+            margin-top: 25px;
+            text-align: right;
+
+        }
+        .login-links a{
+            margin-right: 10px;
+            font-size: 12px;
+            color: #6c6c6c
+        }
+        .last{
+            width: 100%;
+            height: 154px;
+            position: relative;
+
+        }
+        .footer{
+           position: absolute;
+            left: 50%;
+           margin-left: -600px;
+            margin-top: 60px;
+            padding: 7px 0 9px;
+            border-top: 1px solid #ddd;
+            width: 1200px;
+            height:154px ;
+        }
+        .footer-hd b{
+            display: inline;
+            float: left;
+            margin: 0 3px;
+            color: #ddd;
+        }
+        .footer-hd a{
+            display: inline;
+            float: left;
+        }
+        /*.footer-hd p{*/
+            /*border-bottom: 1px solid #ddd;*/
+        /*}*/
+        .footer .footer-hd p{
+            margin-bottom: 8px;
+            line-height: 27px;
+            border-bottom: 1px solid#ddd;
+        }
+        .footer-hd p{
+            padding-bottom: 8px;
+            overflow: hidden;
+        }
+        .footer-bd p{
+            padding-bottom: 8px;
+        }
+
+        .footer-ft p{
+            padding-bottom: 8px;
+            overflow: hidden;
+        }
+        em{
+            display: inline;
+            /*float: left;*/
+            white-space: nowrap;
+            color: #9c9c9c;
+        }
+        .footer-ft b{
+            display: inline;
+
+            margin: 0 3px;
+            color: #ddd;
+        }
+        .footer-ft span{
+            color: #9c9c9c;
+        }
+        .footer-ft a{
+            color: #9c9c9c;
+        }
+        .footer-hd a{
+            margin: 0 4px;
+            color: #6c6c6c;
+        }
+        .footer-bd a{
+            margin: 0 4px;
+            color: #6c6c6c;
+        }
+        .fineld{
+            position: relative;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="head-taobao">
+    <div class="header">
+        <div class="taobao"><img src="taobaoimage/taob.png"></div>
+        <div class="suggest"><img src="taobaoimage/message.png"><span>"页面登录"改进建议</span></div>
+    </div>
+</div>
+<div class="body">
+    <div class="bodybk">
+        <!--右侧的整个框-->
+        <div class="right">
+            <div class="right1">
+                <div class="hd" id="hd">
+                    <!--上脚二维码-->
+                    <div class="login-switch "id="login-switch1"><img src="taobaoimage/duijiao.png"></div>
+                    <div class="login-tip">
+                        <div class="poptip">
+                            <div class="poptip-arrow">
+                                <em></em>
+                                <span></span>
+                            </div>
+                            <div class="poptip-content">
+                                <i class=""></i>
+                                "扫码登录更安全"
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="static-login" id="static-login">
+                        <!--密码登录-->
+                        <div class="login-title">密码登录</div>
+                        <div class="fineld username-field">
+                            <label>
+                                <i class="icon iconfont icon-ren-copy"></i>
+                            </label>
+
+                            <input type="text" name="TPL_username"value maxlength="32" class="textlogin" tabindex="1"
+                                   aria-label="手机号/会员名/邮箱">
+                        </div>
+                        <div class="field pow-field">
+                            <label>
+                                <i class="icon iconfont icon-2"></i>
+                            </label>
+                            <span>
+                                  <input type="password"name="TPL_username"id="TPL_password_1"class="login-text"maxlength="40"tabindex="1">
+                            </span>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="J_Submit" tabindex="3" id="J_SubmitStatic" data-ing="正在登录">登录
+                            </button>
+                        </div>
+                        <ul class="entries">
+                            <li class="other-login">
+                                <a href="#">
+                                    <i class="icon iconfont icon-weibo"></i>
+                                       微博登录
+                                </a>
+                                <a href="#">
+                                    <i class="icon iconfont icon-zhifubao"></i>
+                                    支付宝登录
+                                </a>
+                            </li>
+                        </ul>
+                        <div class ="login-links">
+                            <a href="#">忘记密码</a>
+                            <a href="#">重新登录</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bd" id="bd">
+                    <div class="login-switch "id="login-switch"><img src="taobaoimage/duijiao.png"></div>
+                    <div class="quick-form">
+                        <div class="qrcode-login" id="J_QRCodelogin">
+                            <div class="login-title">手机扫码，安全登录</div>
+                            <div class="qrcode-mod">
+                                <div class="qrcode-img">
+                                    <img src="taobaoimage/erweima.png">
+                                </div>
+                                <div class="qrcode-help"></div>
+                            </div>
+                            <div class="qrcode-desc">
+                                <i class="icon iconfont icon-z-code"></i>
+                                <p>
+                                    <span>打开</span><a href="#">手机淘宝</a><span>|</span><a href="#">手机天猫</a>
+                                    <p>扫一扫登录</p>
+                                </p>
+                            </div>
+                            <div class="login-links">
+                                <a href="#">密码登录</a><a href="#">免费注册</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="last">
+<div class="footer">
+    <div class="footer-hd">
+        <p><a href="#">阿里巴巴集团</a>
+        <b>|</b>
+        <a href="#">阿里巴巴国际站</a>
+        <b>|</b>
+       <a href="#">阿里巴巴中国站</a>
+        <b>|</b>
+      <a href="#">全球速卖通</a>
+        <b>|</b>
+        <a href="#">淘宝网</a>
+        <b>|</b>
+      <a href="#">天猫</a>
+        <b>|</b>
+     <a href="#">聚划算</a>
+        <b>|</b>
+        <a href="#">一淘</a>
+        <b>|</b>
+        <a href="#">阿里妈妈</a>
+        <b>|</b>
+       <a href="#">淘宝旅行</a>
+        <b>|</b>
+      <a href="#">虾米</a>
+        <b>|</b>
+        <a href="#">阿里云计算</a>
+        <b>|</b>
+       <a href="#">云os</a>
+        <b>|</b>
+       <a href="#">万网</a>
+        <b>|</b>
+       <a href="#">支付宝</a>
+        <b>|</b>
+        <a href="#">来往</a> </p>
+    </div>
+    <div class="footer-bd">
+        <p>
+            <a href="#">关于淘宝</a>
+            <a href="#">合作伙伴</a>
+            <a href="#">营销中心</a>
+            <a href="#">廉政举报</a>
+            <a href="#">联系客服</a>
+            <a href="#">开放平台</a>
+            <a href="#">诚征英才</a>
+            <a href="#">联系我们</a>
+            <a href="#">网站地图</a>
+            <a href="#">法律声明</a>
+            <em>© 2016 Taobao.com 版权所有</em>
+        </p>
+    </div>
+    <div class="footer-ft">
+        <p>
+            <span>网络文化营销许可证:<a href="#">文文网[2010]040号</a> </span>
+            <b>|</b>
+            <span>增值电信业务经营许可证：浙B2-20080224-1</span>
+            <b>|</b>
+            <span>信息网络传播视听节目许可证：1109364号</span>
+        </p>
+    </div>
+</div>
+</div>
+<script>
+    var click=document.getElementById("login-switch");
+    var saomadenglu=document.getElementById("hd")
+    var quan=document.getElementById("bd");
+    var quan1=document.getElementById("login-switch1")
+
+    click.onclick = function () {
+//           console.log(quan.style.display)
+//           var x=2;
+//           for(x=2;x>0;x--){
+        quan.style.display="none";
+        saomadenglu.style.display="block";
+
+
+        console.log(111);
+            console.log(quan.style.display)
+
+    }
+    quan1.onclick = function () {
+//           console.log(quan.style.display)
+//           var x=2;
+//           for(x=2;x>0;x--){
+        quan.style.display="block";
+        saomadenglu.style.display="none"
+
+            console.log(111);
+            console.log(quan.style.display)
+
+
+
+
+    }
+
+
+</script>
+</body>
+</html>
